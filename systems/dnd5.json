@@ -1,0 +1,256 @@
+{
+  "id": "dnd5",
+  "name": "D&D 5e",
+  "rollable_traits": {
+    "acrobatics": {
+      "type": "Skill",
+      "name": "Acrobatics",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.dexterity + (skill_proficiencies.acrobatics ? proficiency_bonus : 0)"
+      ]
+    },
+    "animal_handling": {
+      "type": "Skill",
+      "name": "Animal Handling",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.wisdom + (skill_proficiencies.animal_handling ? proficiency_bonus : 0)"
+      ]
+    },
+    "arcana": {
+      "type": "Skill",
+      "name": "Arcana",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.intelligence + (skill_proficiencies.arcana ? proficiency_bonus : 0)"
+      ]
+    },
+    "athletics": {
+      "type": "Skill",
+      "name": "Athletics",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.strength + (skill_proficiencies.athletics ? proficiency_bonus : 0)"
+      ]
+    },
+    "deception": {
+      "type": "Skill",
+      "name": "Deception",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.charisma + (skill_proficiencies.deception ? proficiency_bonus : 0)"
+      ]
+    },
+    "history": {
+      "type": "Skill",
+      "name": "History",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.intelligence + (skill_proficiencies.history ? proficiency_bonus : 0)"
+      ]
+    },
+    "insight": {
+      "type": "Skill",
+      "name": "Insight",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.wisdom + (skill_proficiencies.insight ? proficiency_bonus : 0)"
+      ]
+    },
+    "intimidation": {
+      "type": "Skill",
+      "name": "Intimidation",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.charisma + (skill_proficiencies.intimidation ? proficiency_bonus : 0)"
+      ]
+    },
+    "investigation": {
+      "type": "Skill",
+      "name": "Investigation",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.intelligence + (skill_proficiencies.investigation ? proficiency_bonus : 0)"
+      ]
+    },
+    "medicine": {
+      "type": "Skill",
+      "name": "Medicine",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.wisdom + (skill_proficiencies.medicine ? proficiency_bonus : 0)"
+      ]
+    },
+    "nature": {
+      "type": "Skill",
+      "name": "Nature",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.intelligence + (skill_proficiencies.nature ? proficiency_bonus : 0)"
+      ]
+    },
+    "perception": {
+      "type": "Skill",
+      "name": "Perception",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.wisdom + (skill_proficiencies.perception ? proficiency_bonus : 0)"
+      ]
+    },
+    "performance": {
+      "type": "Skill",
+      "name": "Performance",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.charisma + (skill_proficiencies.performance ? proficiency_bonus : 0)"
+      ]
+    },
+    "persuasion": {
+      "type": "Skill",
+      "name": "Persuasion",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.charisma + (skill_proficiencies.persuasion ? proficiency_bonus : 0)"
+      ]
+    },
+    "religion": {
+      "type": "Skill",
+      "name": "Religion",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.strength + (skill_proficiencies.intelligence ? proficiency_bonus : 0)"
+      ]
+    },
+    "sleight_of_hand": {
+      "type": "Skill",
+      "name": "Sleight of Hand",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.dexterity + (skill_proficiencies.sleight_of_hand ? proficiency_bonus : 0)"
+      ]
+    },
+    "stealth": {
+      "type": "Skill",
+      "name": "Stealth",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.dexterity + (skill_proficiencies.stealth ? proficiency_bonus : 0)"
+      ]
+    },
+    "survival": {
+      "type": "Skill",
+      "name": "Survival",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.wisdom + (skill_proficiencies.survival ? proficiency_bonus : 0)"
+      ]
+    },
+    "strength_save": {
+      "type": "Saving Throw",
+      "name": "Strength",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.strength + (saving_throw_proficiencies.strength ? proficiency_bonus : 0)"
+      ]
+    },
+    "dexterity_save": {
+      "type": "Saving Throw",
+      "name": "Dexterity",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.dexterity + (saving_throw_proficiencies.strength ? proficiency_bonus : 0)"
+      ]
+    },
+    "constitution_save": {
+      "type": "Saving Throw",
+      "name": "Constitution",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.constitution + (saving_throw_proficiencies.strength ? proficiency_bonus : 0)"
+      ]
+    },
+    "intelligence_save": {
+      "type": "Saving Throw",
+      "name": "Intelligence",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.intelligence + (saving_throw_proficiencies.strength ? proficiency_bonus : 0)"
+      ]
+    },
+    "wisdom_save": {
+      "type": "Saving Throw",
+      "name": "Wisdom",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.wisdom + (saving_throw_proficiencies.strength ? proficiency_bonus : 0)"
+      ]
+    },
+    "charisma_save": {
+      "type": "Saving Throw",
+      "name": "Charisma",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.charisma + (saving_throw_proficiencies.strength ? proficiency_bonus : 0)"
+      ]
+    },
+    "initiative": {
+      "type": null,
+      "name": "Initiative",
+      "roller": "ndxpb",
+      "parameters": [
+        "1",
+        "20",
+        "attribute_bonuses.initiative"
+      ]
+    }
+  }
+}
